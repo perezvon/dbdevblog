@@ -1,14 +1,15 @@
 ---
-path: "/hello-world"
+status: "published"
+path: "/blog/hello-world"
 date: "2017-12-06T10:02:21.165Z"
-title: "hello world"
-tags: ['dev', 'gatsby', 'blog']
+title: "Salutations, Planet"
+tags: ['Development', 'Gatsby', 'Blog']
 excerpt: "Wherein we discuss the creation of this very blog."
 ---
 
-![an image](https://upload.wikimedia.org/wikipedia/commons/1/1a/Code.jpg)
+![some stock code](https://upload.wikimedia.org/wikipedia/commons/1/1a/Code.jpg)
 
-Howdy there, and welcome to the Distant Blue Software devblog. This is a place where you will find posts ranging from the educational to the highly trivial but all adhering to the general theme of software development. We build everything from out-of-the-box Squarespace sites to custom e-commerce and app solutions, and we are always learning and teaching one another.
+Howdy there, and welcome to the Distant Blue Software devblog. This is a place where you will find posts ranging from the educational to the highly trivial but all adhering to the general theme of software development. We do everything from standing up out-of-the-box site-builder sites to ground-up custom e-commerce and app solutions, and we are always learning and teaching one another.
 
 In this first post we're going to talk about how we built this blog right here using Gatsby, and why we chose to do so.
 
@@ -74,4 +75,4 @@ We're using a GraphQL query to collect all our posts and the relevant info, then
 
 [Gatsby](https://www.gatsbyjs.org/) is like the Rails of this tech stack: it gives you real power from the moment you install the cli. It's not just for Markdown blogs either. You could grab data from the server with an API call, or process JSON or YAML files, or you can use a legacy CMS like WordPress or Drupal as the back-end. Gatsby will build your static site from whatever data you feed it and spit you out a shiny new site, ready to go. It's pretty damn amazing.
 
-We've already got a couple other projects coming down the pipe that we'll be leveraging the power of Gatsby and the JAMStack to build. I'm sure we'll be talking about them here soon. Check it out for yourself; I don't think you'll be disappointed. 
+We've already got a couple other projects coming down the pipe that we'll be leveraging the power of Gatsby and the JAMStack to build. I'm sure we'll be talking about them here soon. Check it out for yourself; I don't think you'll be disappointed.
